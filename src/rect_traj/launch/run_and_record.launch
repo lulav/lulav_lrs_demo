@@ -1,0 +1,7 @@
+<launch>
+<node name="rect_traj" pkg="rect_traj" type="rect_traj" />
+
+<node pkg="rosbag" type="record" name="record_mavros_topics"
+       args="record -b 0 -o  /home/iftach/bagfiles/rect_traj -a"/>
+
+</launch>

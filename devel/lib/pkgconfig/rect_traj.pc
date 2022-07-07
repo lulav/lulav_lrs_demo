@@ -1,8 +1,0 @@
-prefix=/home/iftach/lulav_lrs_demo/devel
-
-Name: rect_traj
-Description: Description of rect_traj
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs roscpp std_msgs

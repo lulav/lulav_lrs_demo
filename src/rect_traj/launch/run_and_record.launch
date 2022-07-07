@@ -1,7 +1,8 @@
 <launch>
+<arg name="bag_path" default="/home/" />
 <node name="rect_traj" pkg="rect_traj" type="rect_traj" />
 
 <node pkg="rosbag" type="record" name="record_mavros_topics"
-       args="record -b 0 -o  /home/iftach/bagfiles/rect_traj -a"/>
+       args="record -b 0 -o $(arg bag_path)rect_traj -a"/>
 
 </launch>

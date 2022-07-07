@@ -3,3 +3,4 @@ log/
 install/
 tmp/
 devel/
+.catkin_workspace
